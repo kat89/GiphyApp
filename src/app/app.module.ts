@@ -11,6 +11,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { GiphyService } from './giphy.service';
+import { GifViewrComponent } from './gif-viewr/gif-viewr.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { GiphyService } from './giphy.service';
     HomeComponent,
     TrendingComponent,
     SearchComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    GifViewrComponent
   ],
   imports: [
     BrowserModule,
